@@ -30,7 +30,7 @@ npm install
 ```
 
 
-### 環境変数の設定
+## 環境変数の設定
 環境変数として **MONGODB_ENDPOINT** と **PORT**を設定する必要があります。
 
 **MONGODB_ENDPOINT** にはMongoDBがのエンドポイントを **PORT** には本プログラムが公開するするポート番号を指定します。
@@ -47,7 +47,7 @@ PORT=3001
 
 
 
-### 使い方
+## 使い方
 
 下記のコマンドを実行することでプログラムが開始します。
 
@@ -63,6 +63,6 @@ npm stop
 
 
 
-### ライセンス
+## ライセンス
 
 adl is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
