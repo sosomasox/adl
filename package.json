@@ -1,0 +1,32 @@
+{
+  "name": "adl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever start api/v1/index.js",
+    "stop": "forever stop api/v1/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sosomasox/adl.git"
+  },
+  "author": "Taichi Soma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sosomasox/adl/issues"
+  },
+  "homepage": "https://github.com/sosomasox/adl#readme",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "forever": "^3.0.4",
+    "helmet": "^4.4.1",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.1",
+    "morgan": "^1.10.0"
+  }
+}
