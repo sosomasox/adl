@@ -74,6 +74,16 @@ npm stop
 &nbsp;
 
 
+## Web API
+
+本プログラムが提供するWeb APIに関しては以下を参照して下さい。
+
+https://github.com/sosomasox/adl/wiki
+
+
+&nbsp;
+
+
 ## ライセンス
 
 adl is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
