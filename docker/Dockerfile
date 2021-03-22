@@ -13,4 +13,6 @@ RUN git clone https://github.com/sosomasox/adl.git && \
 
 WORKDIR adl
 
-CMD ["npm start"]
+ADD ./scripts/entrypoint.sh ./
+
+CMD ["./entrypoint.sh"]
